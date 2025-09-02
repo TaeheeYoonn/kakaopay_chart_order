@@ -1,0 +1,36 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
+csv:
+  file:
+    path: stocks.csv
+
+logging:
+  level:
+    root: INFO
+    com.kakao.kakaotest: INFO
+
+server:
+  port: 8080
+  error:
+    include-stacktrace: never
+    include-message: always
+    whitelabel:
+      enabled: false
