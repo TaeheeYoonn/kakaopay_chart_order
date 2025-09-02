@@ -91,8 +91,8 @@ stock-ranking-api/
 
 1. 프로젝트를 클론합니다:
    ```bash
-   git clone https://github.com/kakaopayseccoding-server/202407-taehee0227-naver.com.git
-   cd 202407-taehee0227-naver.com
+   git clone https://github.com/TaeheeYoonn/kakaopay_chart_order.git
+   cd kakaopay_chart_order
    ```
 
 2. Gradle을 사용하여 프로젝트를 빌드합니다:
